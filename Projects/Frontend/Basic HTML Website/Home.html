@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Basic HTML Website</title>
+</head>
+
+<body>
+
+  <header>
+    <nav aria-label="Main Navigation">
+      <div class="logo">
+        <img src="logo.png" alt="Website Logo" width="100" height="50" />
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="portfolio">
+      <div class="grid-container">
+
+        <!-- Projects Section -->
+        <section class="column" id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>HTML Only Portfolio</li>
+            <li>Calculator</li>
+            <li>Quiz App</li>
+            <li>Countdown Timer</li>
+            <li>Product Upcoming Page</li>
+          </ul>
+        </section>
+
+        <!-- Work Experience Section -->
+        <section class="column" id="work-experience">
+          <h2>Work Experience</h2>
+
+          <article class="experience">
+            <h3>roadmap.sh</h3>
+            <p>Solved all the frontend projects</p>
+            <a href="#">Visit my Profile</a>
+          </article>
+
+          <article class="experience">
+            <h3>OpenSource Work</h3>
+            <p>Contributed to 50 open source projects. Made my own projects with 200 GitHub Stars.</p>
+            <a href="#">Visit my GitHub Profile</a>
+          </article>
+        </section>
+
+        <!-- Education Section -->
+        <section class="column" id="education">
+          <h2>Education</h2>
+          <p>Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+          <h3>Courses I took:</h3>
+          <ul>
+            <li>Object Oriented Programming</li>
+            <li>Data Structures and Algorithms</li>
+            <li>Web Engineering</li>
+            <li>Artificial Intelligence</li>
+            <li>Human Computer Interaction</li>
+            <li>Computer Graphics</li>
+            <li>Database Management Systems</li>
+            <li>Distributed Database Systems</li>
+            <li>Discrete Mathematics</li>
+          </ul>
+        </section>
+
+      </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" aria-label="Teacher Reviews">
+      <h2>Reviews from my Teachers</h2>
+      <div class="review-list">
+
+        <article class="review">
+          <blockquote>
+            "This portfolio is amazing! Clean design and excellent content."
+          </blockquote>
+          <footer>
+            <cite>— Jane Doe, Frontend Developer</cite>
+          </footer>
+        </article>
+
+        <article class="review">
+          <blockquote>
+            "Super impressed with the project work and attention to detail."
+          </blockquote>
+          <footer>
+            <cite>— John Smith, Tech Lead at DevWorks</cite>
+          </footer>
+        </article>
+
+      </div>
+    </section>
+  </main>
+
+</body>
+
+</html>
